@@ -1,6 +1,7 @@
 package class1;
 public class Class1 {
     public static void main(String[] args) {
-        System.out.println("main");
+        Class2 c2 = new Class2();
+        c2.m();
     }
 }
